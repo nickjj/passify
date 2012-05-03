@@ -12,7 +12,7 @@ There are 3 methods which are explained below.
 
 ### Create
 
-Create a new password. It will use [0-9][A-Z][a-z] as the character set. It only takes one argument which is the length of the password. It defaults to 8, but you can override that by supplying your own length.
+Create a new password. It will use [0-9][A-Z][a-z] as the character set. It only takes one optional argument which is the length of the password. It defaults to 8, but you can override that by supplying your own length.
 
     var foo = passify.create();
     console.log(foo);
