@@ -1,4 +1,4 @@
-# <a href="#passify" name="passify">Passify</a> [![Build Status](https://secure.travis-ci.org/nickjj/disco.png?branch=master)](http://travis-ci.org/nickjj/passify)
+# <a href="#passify" name="passify">Passify</a> [![Build Status](https://secure.travis-ci.org/nickjj/passify.png)](http://travis-ci.org/nickjj/passify)
 
 A small utility to create a password and wrap bcrypt.
 
