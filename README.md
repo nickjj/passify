@@ -41,4 +41,5 @@ Compare a password using bcrypt. Supply your plain text password, potential hash
     });
 
 ## Test
+    $ npm install
     $ make test
