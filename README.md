@@ -41,6 +41,4 @@ Compare a password using bcrypt. Supply your plain text password, potential hash
     });
 
 ## Test
-    $ git clone https://github.com/nickjj/passify.git
-    $ cd passify
     $ make test
