@@ -16,7 +16,6 @@ describe('Passify', function() {
   describe('Hash', function() {
     it('should create a hash for the password "secret".', function(cb) {
       passify.hash('secret', function(err, hash) {
-        console.log(hash);
         hash.should.be.ok;
         cb();
       });
