@@ -1,4 +1,4 @@
-var passify = require('passify');
+var passify = require('../lib/passify');
 
 describe('Passify', function() {
   describe('Create', function() {
