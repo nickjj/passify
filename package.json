@@ -7,10 +7,6 @@
     "password",
     "pass"
   ],
-  "author": {
-    "name": "Nick Janetakis",
-    "email": "nick.janetakis@gmail.com"
-  },
   "author": "Nick Janetakis <nick.janetakis@gmail.com>",
   "repository": {
     "type": "git",
