@@ -1,6 +1,6 @@
 {
   "name": "passify",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A small utility to create a password and wrap bcrypt.",
   "author": "Nick Janetakis <nick.janetakis@gmail.com>",
   "keywords": ["bcrypt", "password", "pass", "passify"],
