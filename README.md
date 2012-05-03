@@ -16,6 +16,8 @@ There are only 3 methods:
 
 ### Create
 
+Create a new password. It will use [0-9][A-Z][a-z] as the character set.
+
     var foo = passify.create();
     console.log(foo);
     // 8 character password which is the default.
@@ -26,12 +28,18 @@ There are only 3 methods:
 
 ### Hash
 
+Hash a password using bcrypt. Supply your plain text password and then give it a callback.
+
     passify.hash('secretpassword', function(err, hash) {
       console.log(hash);
       // the hashed result.
     });
 
 ### Compare
+
+Compare a password using bcrypt. Supply your plain text password and a potential hashed version of it.
+
+It will return true if the hash matches or false if it does not.
 
     passify.compare('123', 'hashed-version-of-123-would-actually-be-here', function(err, bool) {
       console.log(bool);
