@@ -1,0 +1,34 @@
+{
+  "name": "passify",
+  "version": "0.0.3",
+  "description": "A small utility to create a password and wrap bcrypt.",
+  "keywords": [
+    "bcrypt",
+    "password",
+    "pass"
+  ],
+  "author": {
+    "name": "Nick Janetakis",
+    "email": "nick.janetakis@gmail.com"
+  },
+  "author": "Nick Janetakis <nick.janetakis@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nickjj/passify.git"
+  },
+  "main": "lib/passify",
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": {
+    "node": ">=0.6"
+  },
+  "dependencies": {
+    "bcrypt": "~0.5.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "optionalDependencies": {}
+}
