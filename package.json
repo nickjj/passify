@@ -2,12 +2,8 @@
   "name": "passify",
   "version": "0.0.3",
   "description": "A small utility to create a password and wrap bcrypt.",
-  "keywords": [
-    "bcrypt",
-    "password",
-    "pass"
-  ],
   "author": "Nick Janetakis <nick.janetakis@gmail.com>",
+  "keywords": ["bcrypt", "password", "pass", "passify"],
   "repository": {
     "type": "git",
     "url": "git://github.com/nickjj/passify.git"
