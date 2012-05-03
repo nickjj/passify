@@ -8,11 +8,7 @@ A small utility to create a password and wrap bcrypt.
 
 ## Usage
 
-There are only 3 methods:
-
-- create
-- hash
-- compare
+There are 3 methods which are explained below.
 
 ### Create
 
