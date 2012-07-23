@@ -1,6 +1,6 @@
 {
   "name": "passify",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A small utility to create a password and wrap bcrypt.",
   "author": "Nick Janetakis <nick.janetakis@gmail.com>",
   "keywords": ["bcrypt", "password", "pass", "passify"],
@@ -16,7 +16,7 @@
     "node": ">=0.6"
   },
   "dependencies": {
-    "bcrypt": "~0.5.0"
+    "bcrypt": "~0.7.0"
   },
   "devDependencies": {
     "mocha": "*",
