@@ -40,6 +40,11 @@ Compare a password using bcrypt. Supply your plain text password, potential hash
       // did they match? true or false.
     });
 
+## Example
+
+    $ cd example
+    $ node demo.js
+
 ## Test
     $ npm install
     $ make test
