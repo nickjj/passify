@@ -1,4 +1,4 @@
-var bcrypt = require('bcrypt');
+var bcrypt = require("bcryptjs");
 var chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
 var charsLength = chars.length;
 
@@ -26,4 +26,4 @@ exports.hash = function(str, cb) {
   });
 };
 
-exports.compare = bcrypt.compare; 
+exports.compare = bcrypt.compare;
