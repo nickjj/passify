@@ -24,10 +24,13 @@ describe('Passify', function() {
 
   describe('Compare', function() {
     it('should return false when comparing a password to a wrong hash.', function(cb) {
-      passify.compare('secret', '123', function(err, bool) {
-        bool.should.be.false;
-        cb();
-      });
+      passify.hash('secret', function(err, hash) {
+        passify.compare('different secret', hash, function(err, bool) {
+          bool.should.be.false;
+          cb();
+        });
+      })
+      
     });
     it('should return true when comparing a password to a correct hash.', function(cb) {
       passify.compare('secret', '$2a$05$uwnq6r5LxGIMjFGjHwKBWuMgcH/XcazHPG6b/xj3Yze5DRd6NmNGO', function(err, bool) {
