@@ -16,7 +16,7 @@
     "node": ">=0.8"
   },
   "dependencies": {
-    "bcrypt": "~0.7.5"
+    "bcrypt": "~5.0.0"
   },
   "devDependencies": {
     "mocha": "*",
